@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border-bottom: 1px solid black;
+    height: 40px;
+    text-align: center;
+}
+
+.book {
+    color: white;
+    background-color: rgb(41, 167, 41);
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.edit {
+    color: white;
+    background-color: rgb(41, 167, 41);
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.delete {
+    color: white;
+    background-color: rgb(218, 9, 44);
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.container {
+    overflow-x: auto;
+}
